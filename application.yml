@@ -5,7 +5,11 @@ eurekaa:
   client:
     serviceUrl:
       defaultZone: http://localhost:8761/eureka/
-
+mysql:
+  client:
+    database: steeltoe
+    username: root
+    password: steeltoe
 foo: baz
 
 ---
